@@ -1,0 +1,152 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body{
+   font-family: 'Saira Condensed', sans-serif;color: #282828;
+}
+
+.container{
+    width: 1400px;
+    margin: auto;
+    /* padding: 41px; */
+    /* width: 500px; */
+}
+ .line{
+    width: 100px;
+    height: 2px;
+    background-color: #c2b481;
+    display: block;
+    /* margin: auto; */
+    margin: 10px auto;
+}
+ .flex{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+ .col-1-2{
+    flex-basis: 50%;
+    padding: 15px;
+}
+ .col-1-2-3{
+    flex-basis: 33.33%;
+    padding: 15px;
+}
+
+
+ h1{
+    font-size: 45px;
+    font-weight: 400;
+}
+ h2{}
+ p{
+    /* font-size: 25px; */
+}
+ img{
+    max-width: 100%;
+}
+
+
+.headline{
+    background-color: #282828;
+    padding: 10px;
+}
+.headline p{
+    color: #c2b481;
+    text-align: center;
+    font-size: 18px;
+}
+.headline p strong{
+    margin-right: 14px;
+}
+
+ .about-us-section{}
+ .content{
+    padding: 50px 220px;
+    text-align: center;
+}
+
+ .feature-section{
+    padding: 50px 0px;
+}
+.feature-heading{padding: 100px;}
+.feature-heading h2{}
+
+ .gallery-section{
+    margin-bottom: 50px;
+}
+ .gallery-containt{
+    background-color: #282828;
+    padding: 128px 70px;
+}
+ .gallery-containt h3{
+    color: #c2b481;
+    margin: 10px 0;
+    font-size: 30px;
+}
+ .gallery-containt p{
+    color: #ffffff;
+}
+ .gallery-containt a{
+    color: #c2b481;
+    text-decoration: none;
+}
+
+ .mission-section{}
+.mission-section h4{
+    font-size: 40px;
+    font-weight: 300;
+}
+ .headline-2{
+    background-color: #282828;
+    padding: 50px 0;
+    /* width: 5000px; */
+}
+ .headline-2 h4{
+    /* background-color: #282828; */
+    /* padding: 50px 0; */
+    color: #c2b481;
+    font-size: 35px;
+    font-weight: 300;
+    /* text-align: center; */
+    width: 700px;
+    margin: auto;
+}
+
+ .product-section{
+    padding: 70px;
+}
+ .heading{
+    margin-bottom: 50px;
+}
+ .heading h2{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+ .product-box{
+    background-color: #f3f0eb;
+    text-align: center;
+    padding: 30px 10px;
+}
+.product-box a{
+   text-decoration: none;
+}
+ .product-box img{}
+ .product-box h3{
+    color: #282828;
+}
+ .product-box h4{
+    color: #282828;
+}
+ .review{}
+ .review img{
+    width: 30px;
+    padding: 5px;
+}
+
+
+
